@@ -1,5 +1,4 @@
 import React from 'react';
-import { cn } from '../lib/utils';
 import { TrendingUp, Activity, Zap, Clock } from 'lucide-react';
 
 interface EvolutionLogProps {

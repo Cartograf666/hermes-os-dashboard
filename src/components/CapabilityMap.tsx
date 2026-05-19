@@ -1,6 +1,5 @@
 import React from 'react';
-import { cn } from '../lib/utils';
-import { Wrench, Zap, Shield, Cpu, Globe, BookOpen } from 'lucide-react';
+import { Zap, Cpu } from 'lucide-react';
 
 interface Skill {
   name: string;
@@ -10,15 +9,6 @@ interface Skill {
 interface CapabilityMapProps {
   skills: Skill[];
 }
-
-const iconMap: Record<string, any> = {
-  'devops': Wrench,
-  'mcp': Cpu,
-  'github': Globe,
-  'research': BookOpen,
-  'security': Shield,
-  'ai': Zap,
-};
 
 export const CapabilityMap: React.FC<CapabilityMapProps> = ({ skills }) => {
   return (

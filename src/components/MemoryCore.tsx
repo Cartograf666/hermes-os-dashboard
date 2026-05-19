@@ -1,6 +1,6 @@
 import React from 'react';
 import { cn } from '../lib/utils';
-import { Brain, User, Target, Sparkles } from 'lucide-react';
+import { User, Target, Sparkles } from 'lucide-react';
 
 interface MemoryCoreProps {
   memory: {
