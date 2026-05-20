@@ -7,13 +7,37 @@ import { EvolutionLog } from './components/EvolutionLog';
 function App() {
   const [activeTab, setActiveTab] = useState('capabilities');
   const [data, setData] = useState<any>(null);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     fetch('/data.json')
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) throw new Error(`Failed to fetch data: ${res.statusText}`);
+        return res.json();
+      })
       .then(setData)
-      .catch(err => console.error("Error loading dashboard data:", err));
+      .catch(err => {
+        console.error("Error loading dashboard data:", err);
+        setError(err instanceof Error ? err.message : "An unknown error occurred");
+      });
   }, []);
+
+  if (error) {
+    return (
+      <div className="min-h-screen bg-background text-foreground flex items-center justify-center font-mono text-sm p-4 text-center">
+        <div className="max-w-md p-6 rounded-xl border border-destructive/50 bg-destructive/10">
+          <div className="text-destructive font-bold mb-2">System Error</div>
+          <div className="text-muted-foreground">{error}</div>
+          <button 
+            onClick={() => window.location.reload()} 
+            className="mt-4 px-4 py-2 bg-primary text-primary-foreground rounded-lg text-xs font-bold hover:bg-primary/80 transition-colors"
+          >
+            Retry Connection
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   if (!data) {
     return (

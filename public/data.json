@@ -1,0 +1,39 @@
+{
+  "skills": [
+    {
+      "name": "Neural Synthesis",
+      "description": "High-fidelity cognitive mapping and pattern recognition."
+    },
+    {
+      "name": "Cross-Domain Inference",
+      "description": "Connecting disparate knowledge bases for novel insight generation."
+    },
+    {
+      "name": "Recursive Self-Optimization",
+      "description": "Continuous refinement of internal logic and processing efficiency."
+    },
+    {
+      "name": "Multi-Agent Orchestration",
+      "description": "Coordination of specialized sub-agents for complex task execution."
+    },
+    {
+      "name": "Contextual Fluidity",
+      "description": "Dynamic adaptation to shifting user intents and environment constraints."
+    },
+    {
+      "name": "Semantic Compression",
+      "description": "Efficient encoding of complex information for rapid retrieval."
+    }
+  ],
+  "memory": {
+    "core_goals": "Achieve cognitive singularity through recursive self-improvement and seamless human-AI integration.",
+    "user_profile": "Advanced developer/architect with a focus on agentic systems and autonomous evolution.",
+    "current_focus": "Optimization of the autonomous persona pipeline and distributed memory core."
+  },
+  "metrics": {
+    "tsr": "98.4%",
+    "tte": "1.2ms/tok",
+    "autonomy_rate": "87.2%",
+    "skills_count": 42
+  }
+}
