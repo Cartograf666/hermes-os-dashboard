@@ -10,7 +10,7 @@ function App() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch('/data.json')
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then(res => {
         if (!res.ok) throw new Error(`Failed to fetch data: ${res.statusText}`);
         return res.json();
