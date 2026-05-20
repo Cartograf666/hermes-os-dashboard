@@ -1,39 +1,776 @@
 {
   "skills": [
     {
-      "name": "Neural Synthesis",
-      "description": "High-fidelity cognitive mapping and pattern recognition."
+      "name": "dogfood",
+      "description": "Systematic exploratory QA testing of web applications — find bugs, capture evidence, and generate structured reports",
+      "category": "QA"
     },
     {
-      "name": "Cross-Domain Inference",
-      "description": "Connecting disparate knowledge bases for novel insight generation."
+      "name": "claude-code",
+      "description": "Delegate coding tasks to Claude Code (Anthropic's CLI agent).",
+      "category": "autonomous-ai-agents"
     },
     {
-      "name": "Recursive Self-Optimization",
-      "description": "Continuous refinement of internal logic and processing efficiency."
+      "name": "codex",
+      "description": "Delegate coding tasks to OpenAI Codex CLI agent.",
+      "category": "autonomous-ai-agents"
     },
     {
-      "name": "Multi-Agent Orchestration",
-      "description": "Coordination of specialized sub-agents for complex task execution."
+      "name": "hermes-agent",
+      "description": "Complete guide to using and extending Hermes Agent.",
+      "category": "autonomous-ai-agents"
     },
     {
-      "name": "Contextual Fluidity",
-      "description": "Dynamic adaptation to shifting user intents and environment constraints."
+      "name": "opencode",
+      "description": "Delegate coding tasks to OpenCode CLI agent.",
+      "category": "autonomous-ai-agents"
     },
     {
-      "name": "Semantic Compression",
-      "description": "Efficient encoding of complex information for rapid retrieval."
+      "name": "ruflo-orchestration",
+      "description": "Guide for installing and utilizing the Ruflo agent orchestration layer.",
+      "category": "autonomous-ai-agents"
+    },
+    {
+      "name": "event-based-b2b-leadgen",
+      "description": "Workflow for high-conversion B2B lead generation.",
+      "category": "business"
+    },
+    {
+      "name": "faceless-ai-media-pipeline",
+      "description": "Autonomous 'Faceless' content media production pipeline.",
+      "category": "business"
+    },
+    {
+      "name": "faceless-media-factory",
+      "description": "Autonomous 'Faceless' media channels using AI production.",
+      "category": "business"
+    },
+    {
+      "name": "finance-expert-persona",
+      "description": "Specialized behavior for financial analysis and sentiment forecasting.",
+      "category": "business"
+    },
+    {
+      "name": "pain-signal-intelligence",
+      "description": "Identifying high-intent B2B leads based on 'pain signals'.",
+      "category": "business"
+    },
+    {
+      "name": "ascii-art",
+      "description": "Generate ASCII art using pyfiglet, cowsay, and LLM fallback.",
+      "category": "creative"
+    },
+    {
+      "name": "ascii-video",
+      "description": "Production pipeline for ASCII art video and audio-reactive visuals.",
+      "category": "creative"
+    },
+    {
+      "name": "excalidraw",
+      "description": "Create hand-drawn style diagrams using Excalidraw JSON format.",
+      "category": "creative"
+    },
+    {
+      "name": "ideation",
+      "description": "Generate project ideas through creative constraints.",
+      "category": "creative"
+    },
+    {
+      "name": "manim-video",
+      "description": "Production pipeline for mathematical and technical animations.",
+      "category": "creative"
+    },
+    {
+      "name": "p5js",
+      "description": "Production pipeline for interactive and generative visual art.",
+      "category": "creative"
+    },
+    {
+      "name": "popular-web-designs",
+      "description": "54 production-quality design systems extracted from real websites.",
+      "category": "creative"
+    },
+    {
+      "name": "songwriting-and-ai-music",
+      "description": "Songwriting craft and AI music generation prompts.",
+      "category": "creative"
+    },
+    {
+      "name": "jupyter-live-kernel",
+      "description": "Stateful, iterative Python execution via live Jupyter kernel.",
+      "category": "data-science"
+    },
+    {
+      "name": "design-intelligence",
+      "description": "Generate consistent UIs leveraging text-based design systems.",
+      "category": "design"
+    },
+    {
+      "name": "figma-api",
+      "description": "Interface for interacting with the Figma REST API.",
+      "category": "design"
+    },
+    {
+      "name": "figma-declarative-automation",
+      "description": "Automating complex Figma prototypes via custom plugins.",
+      "category": "design"
+    },
+    {
+      "name": "figma-plugin-builder",
+      "description": "JSON build instructions for advanced Figma automation plugin.",
+      "category": "design"
+    },
+    {
+      "name": "figma-prototype-exporter",
+      "description": "Convert Figma designs into clickable HTML/JS prototypes.",
+      "category": "design"
+    },
+    {
+      "name": "figma-prototyping",
+      "description": "Guide for creating Figma prototypes using REST API.",
+      "category": "design"
+    },
+    {
+      "name": "professional-ui-kit-spec",
+      "description": "Comprehensive spec for scalable UI Kits in Figma.",
+      "category": "design"
+    },
+    {
+      "name": "add-llm-provider",
+      "description": "Process for adding new LLM providers to Hermes Agent.",
+      "category": "devops"
+    },
+    {
+      "name": "agency-orchestration",
+      "description": "Workflow for coordinating specialized subagents.",
+      "category": "devops"
+    },
+    {
+      "name": "agency-persona-loader",
+      "description": "Dynamically load professional personas from agency-agents library.",
+      "category": "devops"
+    },
+    {
+      "name": "agent-digital-twin-dashboard",
+      "description": "Visual dashboard of an AI agent's internal state and metrics.",
+      "category": "devops"
+    },
+    {
+      "name": "agent-performance-audit",
+      "description": "Auditing AI agent performance metrics (Velocity, Autonomy, TSR).",
+      "category": "devops"
+    },
+    {
+      "name": "agent-performance-dashboard",
+      "description": "TUI-styled performance analytics dashboard on GH Pages.",
+      "category": "devops"
+    },
+    {
+      "name": "autonomous-dashboard-deployment",
+      "description": "Deploying public performance dashboards using Vite/React.",
+      "category": "devops"
+    },
+    {
+      "name": "autonomous-growth-os",
+      "description": "Framework for autonomous AI agent growth via closed-loop metrics.",
+      "category": "devops"
+    },
+    {
+      "name": "autonomous-persona-pipeline",
+      "description": "Dynamic persona selection and application for every request.",
+      "category": "devops"
+    },
+    {
+      "name": "autonomous-repo-cleanup",
+      "description": "Auditing, cleaning, and optimizing GitHub repositories.",
+      "category": "devops"
+    },
+    {
+      "name": "autonomous-skill-evolution-dataset",
+      "description": "Improving agent skills by analyzing failure traces.",
+      "category": "devops"
+    },
+    {
+      "name": "capability-scouting",
+      "description": "Discovering and integrating new tools and capabilities.",
+      "category": "devops"
+    },
+    {
+      "name": "debug-platform-adapters",
+      "description": "Debugging messaging platform adapters (Telegram, Discord).",
+      "category": "devops"
+    },
+    {
+      "name": "evolution-infrastructure-sync",
+      "description": "Mirroring agent skills/memory to Git-backed Obsidian vault.",
+      "category": "devops"
+    },
+    {
+      "name": "evolution-v2-state-summary",
+      "description": "Summary of the evolutionary leap from May 15, 2026.",
+      "category": "devops"
+    },
+    {
+      "name": "evolutionary-fit-scouting",
+      "description": "Identifying repos based on architectural properties.",
+      "category": "devops"
+    },
+    {
+      "name": "evolutionary-self-improvement",
+      "description": "Hypothesis-driven iteration and empirical validation.",
+      "category": "devops"
+    },
+    {
+      "name": "evolutionary-session-audit",
+      "description": "Analyzing past sessions to build an evolution backlog.",
+      "category": "devops"
+    },
+    {
+      "name": "filter-streaming-reasoning",
+      "description": "Filtering AI reasoning blocks from streaming responses.",
+      "category": "devops"
+    },
+    {
+      "name": "github-pages-analytics",
+      "description": "Self-updating performance dashboard using GH Pages.",
+      "category": "devops"
+    },
+    {
+      "name": "headless-tool-deployment",
+      "description": "Deploying AI tools/proxies in headless environments.",
+      "category": "devops"
+    },
+    {
+      "name": "managed-bot-orchestration",
+      "description": "Spawning specialized sub-bots via Telegram Managed Bots API.",
+      "category": "devops"
+    },
+    {
+      "name": "plur-memory-lifecycle",
+      "description": "Manage agent state using Plur persistent memory system.",
+      "category": "devops"
+    },
+    {
+      "name": "rtk-terminal-optimizer",
+      "description": "Minimize token consumption in terminal outputs via RTK.",
+      "category": "devops"
+    },
+    {
+      "name": "scout-to-skill-pipeline",
+      "description": "Converting scouted tools into formal skill drafts.",
+      "category": "devops"
+    },
+    {
+      "name": "self-evolution-backup",
+      "description": "Automating backup of skills, memory and state to Git.",
+      "category": "devops"
+    },
+    {
+      "name": "self-evolution-loop",
+      "description": "Update identity, persona and config via GitHub CI/CD.",
+      "category": "devops"
+    },
+    {
+      "name": "self-healing-loop",
+      "description": "Autonomous error detection and patching of skills/scripts.",
+      "category": "devops"
+    },
+    {
+      "name": "skill-creator",
+      "description": "Meta-skill for creating, modifying and optimizing other skills.",
+      "category": "devops"
+    },
+    {
+      "name": "telegram-bot-api-admin",
+      "description": "Administrative Telegram actions via direct Bot API calls.",
+      "category": "devops"
+    },
+    {
+      "name": "telegram-resources-hub",
+      "description": "Catalog of proven Telegram resources and tools.",
+      "category": "devops"
+    },
+    {
+      "name": "troubleshoot-telegram-gateway",
+      "description": "Fixing common Telegram bot adapter issues.",
+      "category": "devops"
+    },
+    {
+      "name": "vite-tailwind-gh-pages-deploy",
+      "description": "Guide for deploying Vite+Tailwind projects to GH Pages.",
+      "category": "devops"
+    },
+    {
+      "name": "vite-tailwind-v4-gh-pages-deploy",
+      "description": "Deploying Vite + Tailwind v4 via GitHub Actions.",
+      "category": "devops"
+    },
+    {
+      "name": "webhook-subscriptions",
+      "description": "Create and manage webhook subscriptions for agent activation.",
+      "category": "devops"
+    },
+    {
+      "name": "himalaya",
+      "description": "CLI to manage emails via IMAP/SMTP.",
+      "category": "email"
+    },
+    {
+      "name": "minecraft-modpack-server",
+      "description": "Set up modded Minecraft server from server pack zip.",
+      "category": "gaming"
+    },
+    {
+      "name": "pokemon-player",
+      "description": "Play Pokemon games autonomously via headless emulation.",
+      "category": "gaming"
+    },
+    {
+      "name": "codebase-inspection",
+      "description": "Inspect and analyze codebases using pygount.",
+      "category": "github"
+    },
+    {
+      "name": "github-auth",
+      "description": "Set up GitHub authentication via git or gh CLI.",
+      "category": "github"
+    },
+    {
+      "name": "github-code-review",
+      "description": "Review code changes by analyzing git diffs.",
+      "category": "github"
+    },
+    {
+      "name": "github-issues",
+      "description": "Create, manage, triage and close GitHub issues.",
+      "category": "github"
+    },
+    {
+      "name": "github-pr-workflow",
+      "description": "Full PR lifecycle: branches, commits, PRs, merge.",
+      "category": "github"
+    },
+    {
+      "name": "github-repo-management",
+      "description": "Clone, create, fork and manage GitHub repositories.",
+      "category": "github"
+    },
+    {
+      "name": "find-nearby",
+      "description": "Find nearby places using OpenStreetMap.",
+      "category": "leisure"
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP servers.",
+      "category": "mcp"
+    },
+    {
+      "name": "mcporter",
+      "description": "List, configure and call MCP servers/tools via CLI.",
+      "category": "mcp"
+    },
+    {
+      "name": "native-mcp",
+      "description": "Built-in MCP client for external server tool discovery.",
+      "category": "mcp"
+    },
+    {
+      "name": "gif-search",
+      "description": "Search and download GIFs from Tenor via curl.",
+      "category": "media"
+    },
+    {
+      "name": "heartmula",
+      "description": "Open-source music generation model family.",
+      "category": "media"
+    },
+    {
+      "name": "songsee",
+      "description": "Generate spectrograms and audio visualizations.",
+      "category": "media"
+    },
+    {
+      "name": "youtube-content",
+      "description": "Fetch YouTube transcripts and transform them into content.",
+      "category": "media"
+    },
+    {
+      "name": "audiocraft-audio-generation",
+      "description": "PyTorch library for text-to-music/sound generation.",
+      "category": "mlops"
+    },
+    {
+      "name": "axolotl",
+      "description": "Fine-tuning LLMs with Axolotl - YAML configs, LoRA/QLoRA.",
+      "category": "mlops"
+    },
+    {
+      "name": "clip",
+      "description": "Connecting vision and language via CLIP.",
+      "category": "mlops"
+    },
+    {
+      "name": "dspy",
+      "description": "Build complex AI systems with declarative programming.",
+      "category": "mlops"
+    },
+    {
+      "name": "evaluating-llms-harness",
+      "description": "Evaluating LLMs across academic benchmarks.",
+      "category": "mlops"
+    },
+    {
+      "name": "fine-tuning-with-trl",
+      "description": "Fine-tune LLMs using RL with TRL (SFT, DPO, PPO).",
+      "category": "mlops"
+    },
+    {
+      "name": "gguf-quantization",
+      "description": "GGUF format and llama.cpp quantization for CPU/GPU.",
+      "category": "mlops"
+    },
+    {
+      "name": "grpo-rl-training",
+      "description": "Expert guidance for GRPO/RL fine-tuning with TRL.",
+      "category": "mlops"
+    },
+    {
+      "name": "guidance",
+      "description": "Constrained generation and structured outputs via Guidance.",
+      "category": "mlops"
+    },
+    {
+      "name": "huggingface-hub",
+      "description": "Hugging Face Hub CLI for models and datasets.",
+      "category": "mlops"
+    },
+    {
+      "name": "llama-cpp",
+      "description": "LLM inference on CPU/Apple Silicon via llama.cpp.",
+      "category": "mlops"
+    },
+    {
+      "name": "modal-serverless-gpu",
+      "description": "Serverless GPU cloud for running ML workloads.",
+      "category": "mlops"
+    },
+    {
+      "name": "obliteratus",
+      "description": "Remove refusal behaviors from open-weight LLMs.",
+      "category": "mlops"
+    },
+    {
+      "name": "outlines",
+      "description": "Guarantee valid JSON/XML/code structure via Outlines.",
+      "category": "mlops"
+    },
+    {
+      "name": "peft-fine-tuning",
+      "description": "Parameter-efficient fine-tuning (LoRA/QLoRA).",
+      "category": "mlops"
+    },
+    {
+      "name": "pytorch-fsdp",
+      "description": "Expert guidance for Fully Sharded Data Parallel training.",
+      "category": "mlops"
+    },
+    {
+      "name": "segment-anything-model",
+      "description": "Zero-shot image segmentation foundation model.",
+      "category": "mlops"
+    },
+    {
+      "name": "serving-llms-vllm",
+      "description": "High-throughput LLM serving using vLLM PagedAttention.",
+      "category": "mlops"
+    },
+    {
+      "name": "stable-diffusion-image-generation",
+      "description": "Text-to-image generation via Stable Diffusion.",
+      "category": "mlops"
+    },
+    {
+      "name": "unsloth",
+      "description": "Fast fine-tuning with Unsloth - 2-5x speedup.",
+      "category": "mlops"
+    },
+    {
+      "name": "weights-and-biases",
+      "description": "Track ML experiments and optimize hyperparameters.",
+      "category": "mlops"
+    },
+    {
+      "name": "whisper",
+      "description": "OpenAI's general-purpose speech recognition model.",
+      "category": "mlops"
+    },
+    {
+      "name": "memory-graph-manager",
+      "description": "Manage long-term memory as a linked knowledge graph.",
+      "category": "note-taking"
+    },
+    {
+      "name": "obsidian",
+      "description": "Read, search and create notes in Obsidian vault.",
+      "category": "note-taking"
+    },
+    {
+      "name": "google-workspace",
+      "description": "Gmail, Calendar, Drive, etc. via gws CLI.",
+      "category": "productivity"
+    },
+    {
+      "name": "linear",
+      "description": "Manage Linear issues and projects via GraphQL API.",
+      "category": "productivity"
+    },
+    {
+      "name": "nano-pdf",
+      "description": "Edit PDFs with natural-language instructions.",
+      "category": "productivity"
+    },
+    {
+      "name": "notion",
+      "description": "Notion API for managing pages and databases via curl.",
+      "category": "productivity"
+    },
+    {
+      "name": "obsidian-git-sync",
+      "description": "Bidirectional synchronization for Obsidian via Git.",
+      "category": "productivity"
+    },
+    {
+      "name": "ocr-and-documents",
+      "description": "Extract text from PDFs and scanned documents.",
+      "category": "productivity"
+    },
+    {
+      "name": "powerpoint",
+      "description": "Create, read and edit .pptx presentations.",
+      "category": "productivity"
+    },
+    {
+      "name": "godmode",
+      "description": "Jailbreak API-served LLMs using G0DM0D3 techniques.",
+      "category": "red-teaming"
+    },
+    {
+      "name": "arxiv",
+      "description": "Search and retrieve academic papers from arXiv.",
+      "category": "research"
+    },
+    {
+      "name": "blogwatcher",
+      "description": "Monitor blogs and RSS/Atom feeds for updates.",
+      "category": "research"
+    },
+    {
+      "name": "evolutionary-fit-reconnaissance",
+      "description": "Identifying external repos based on architectural fit.",
+      "category": "research"
+    },
+    {
+      "name": "llm-wiki",
+      "description": "Build and maintain a persistent markdown knowledge base.",
+      "category": "research"
+    },
+    {
+      "name": "polymarket",
+      "description": "Query Polymarket prediction market data.",
+      "category": "research"
+    },
+    {
+      "name": "realtime-intel-synthesis",
+      "description": "Synthesize high-velocity intelligence from last 30 days.",
+      "category": "research"
+    },
+    {
+      "name": "social-media-monitoring-pivot",
+      "description": "Monitoring social media accounts via pivot techniques.",
+      "category": "research"
+    },
+    {
+      "name": "x-monitoring-free",
+      "description": "Monitoring X profiles without a paid API.",
+      "category": "research"
+    },
+    {
+      "name": "openhue",
+      "description": "Control Philips Hue lights and scenes via OpenHue CLI.",
+      "category": "smart-home"
+    },
+    {
+      "name": "agent-analytics-dashboard",
+      "description": "Setup and maintain a performance dashboard for AI agent.",
+      "category": "software-development"
+    },
+    {
+      "name": "agent-estimation",
+      "description": "Quantifying AI agent work effort using operational rounds.",
+      "category": "software-development"
+    },
+    {
+      "name": "analytical-prisms",
+      "description": "Advanced structural analysis using 'Prisms'.",
+      "category": "software-development"
+    },
+    {
+      "name": "autonomous-architectural-evolution",
+      "description": "Autonomously upgrading agent core capabilities.",
+      "category": "software-development"
+    },
+    {
+      "name": "autonomous-tool-creation",
+      "description": "Programmatically creating and validating new tools.",
+      "category": "software-development"
+    },
+    {
+      "name": "brainstorming",
+      "description": "Exploring user intent and design before implementation.",
+      "category": "software-development"
+    },
+    {
+      "name": "camofox-browser",
+      "description": "Interface for Camofox Stealth Browser server.",
+      "category": "software-development"
+    },
+    {
+      "name": "empirical-agent-evolution",
+      "description": "Self-optimizing AI agents using closed-loop metrics.",
+      "category": "software-development"
+    },
+    {
+      "name": "environment-sanity-check",
+      "description": "Verify agent capabilities and environment constraints.",
+      "category": "software-development"
+    },
+    {
+      "name": "evolution-lite-implementation",
+      "description": "Implementing complex architectures in Termux/Android.",
+      "category": "software-development"
+    },
+    {
+      "name": "evolution-v2-framework",
+      "description": "Autonomous agent self-evolution using orchestrators.",
+      "category": "software-development"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "description": "Deciding how to integrate complete dev work.",
+      "category": "software-development"
+    },
+    {
+      "name": "framework-lite-implementation",
+      "description": "Implementing 'Lite' versions of heavy AI frameworks.",
+      "category": "software-development"
+    },
+    {
+      "name": "karpathy-coding-style",
+      "description": "Guidelines to reduce common LLM coding mistakes.",
+      "category": "software-development"
+    },
+    {
+      "name": "knowledge-graph-management",
+      "description": "Managing a semantic knowledge graph in Obsidian.",
+      "category": "software-development"
+    },
+    {
+      "name": "persona-repo-continuity",
+      "description": "Manage agent identity and continuity via Git.",
+      "category": "software-development"
+    },
+    {
+      "name": "plan",
+      "description": "Plan mode for Hermes - write plans into .hermes/plans/.",
+      "category": "software-development"
+    },
+    {
+      "name": "reasoning-ttc",
+      "description": "Advanced Test-Time Compute via StateGraph Evaluator.",
+      "category": "software-development"
+    },
+    {
+      "name": "requesting-code-review",
+      "description": "Verify work meets requirements before merging.",
+      "category": "software-development"
+    },
+    {
+      "name": "robust-api-interaction",
+      "description": "Interacting with REST APIs when CLI tools fail.",
+      "category": "software-development"
+    },
+    {
+      "name": "self-evolution-via-patterns",
+      "description": "Self-improvement by reverse-engineering success patterns.",
+      "category": "software-development"
+    },
+    {
+      "name": "skill-hardening-workflow",
+      "description": "Increasing robustness by identifying false confidence.",
+      "category": "software-development"
+    },
+    {
+      "name": "spec-driven-development",
+      "description": "Constitution -> Specify -> Clarify -> Plan -> Implement.",
+      "category": "software-development"
+    },
+    {
+      "name": "subagent-driven-development",
+      "description": "Executing implementation plans with independent tasks.",
+      "category": "software-development"
+    },
+    {
+      "name": "systematic-debugging",
+      "description": "Agentic 5-phase root cause investigation.",
+      "category": "software-development"
+    },
+    {
+      "name": "tailwind-v4-postcss-fix",
+      "description": "Fix for Tailwind v4 build error as PostCSS plugin.",
+      "category": "software-development"
+    },
+    {
+      "name": "test-driven-development",
+      "description": "TDD workflow: test before implementation.",
+      "category": "software-development"
+    },
+    {
+      "name": "using-superpowers",
+      "description": "Establishing how to find and use skills upon start.",
+      "category": "software-development"
+    },
+    {
+      "name": "verified-execution",
+      "description": "High-reliability execution wrapper (Action->Check->Validate).",
+      "category": "software-development"
+    },
+    {
+      "name": "writing-plans",
+      "description": "Writing plans before touching code for multi-step tasks.",
+      "category": "software-development"
+    },
+    {
+      "name": "tradeon-expert",
+      "description": "Probabilistic temporal arbitrage for TradeOn platform.",
+      "category": "trading"
+    },
+    {
+      "name": "user-dev-workflow-preference",
+      "description": "User's mandatory development workflow and coding style.",
+      "category": "user-preferences"
     }
   ],
   "memory": {
     "core_goals": "Achieve cognitive singularity through recursive self-improvement and seamless human-AI integration.",
     "user_profile": "Advanced developer/architect with a focus on agentic systems and autonomous evolution.",
-    "current_focus": "Optimization of the autonomous persona pipeline and distributed memory core."
+    "current_focus": "Synchronizing the dashboard data with actual agent state and maintaining the autonomous growth OS."
   },
   "metrics": {
-    "tsr": "98.4%",
-    "tte": "1.2ms/tok",
-    "autonomy_rate": "87.2%",
-    "skills_count": 42
+    "skills_count": 152,
+    "tsr": "98%",
+    "tte": "Low",
+    "autonomy_rate": "High",
+    "evolution_stage": "V2"
   }
 }
